@@ -1,8 +1,5 @@
 const axios = require("axios");
 
-
-n
-
 require("dotenv").config();
 
 const { App } = require("@slack/bolt");
