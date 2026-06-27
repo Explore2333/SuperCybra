@@ -22,10 +22,6 @@
 
 /super-cybra-suspiciousemails: Explains how to look out for suspicious emails!
 
-/super-cybra-passphrase: Explains what passphrases are!
-
-/super-cybra-dailytip: Explains tips for cybersecurity!
-
 /super-cybra-incidents: Explains cyber real-world incidents!
 
 /super-cybra-careers: Explains different cybersecurity careers!
@@ -33,5 +29,3 @@
 /super-cybra-certifications: Explains cybersecurity certifications!
 
 /super-cybra-quiz: Provides a cybersecurity quiz!
-
-/super-cybra-wordoftheday: Explains a word from cybersecurity each day!
