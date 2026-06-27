@@ -33,7 +33,6 @@ const pingResponses = [
 
 app.command("/super-cybra-ping", async ({ command, ack, respond }) => {
     const start = Date.now();
-    ack();
     await ack();
     const latency = Date.now() - start;
 
@@ -167,7 +166,7 @@ app.command("/super-cybra-identitytheft", async ({ ack, respond }) => {
     await ack(); // Only acknowledge once
 
     const randomAnswer =
-        identitytheftResponses[Math.floor(Math.random() * identitytheftResponse.length)];
+        identitytheftResponses[Math.floor(Math.random() * identitytheftResponses.length)];
 
     await respond({
         text: randomAnswer
@@ -191,25 +190,22 @@ app.command("/super-cybra-suspiciousemails", async ({ ack, respond }) => {
 });
 
 
-const goodpasswordsResponses = [
+const dailycybersecuritytipsResponses = [
     "Avoid using the same password across multiple sites."
 ];
 
-app.command("/super-cybra-passwords", async ({ ack, respond }) => {
+app.command("/super-cybra-dailytips", async ({ ack, respond }) => {
     await ack(); // Only acknowledge once
 
     const randomAnswer =
-        goodpasswordsResponses[Math.floor(Math.random() * goodpasswordsResponses.length)];
+        dailycybersecuritytipsResponses[Math.floor(Math.random() * dailycybersecuritytipsResponses.length)];
 
     await respond({
         text: randomAnswer
     });
+    "Avoid using the same password across multiple sites."
 });
 
-
-const dailycybersecuritytipsResponses = [
-    "Avoid using the same password across multiple sites."
-];
 
 app.command("/super-cybra-dailytips", async ({ ack, respond }) => {
     await ack(); // Only acknowledge once
@@ -359,11 +355,7 @@ Explains what identity theft is!
 
 Explains how to look out for suspicious emails!
 
-/super-cybra-passphrase:
-
-Explains what passphrases are!
-
-/super-cybra-dailytip:
+/super-cybra-dailytips:
 
 Explains tips for cybersecurity!
 
@@ -383,7 +375,7 @@ Explains cybersecurity certifications!
 
 Provides a cybersecurity quiz!
 
-/super-cybra-wordoftheday:
+/super-cybra-workoftheday:
 
 Explains a word from cybersecurity each day!`
     });
