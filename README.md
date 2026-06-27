@@ -1,5 +1,9 @@
 # SuperCybra
-SuperCybra is a cybersecurity slack bot on the Hack Club workspace to help aid students in learning cybersecurity concepts. Users can quickly learn concepts and important skills in cybersecurity using Slack commands!
+SuperCybra is a cybersecurity slack bot on the Hack Club workspace to help aid students in learning cybersecurity concepts. Users can quickly learn concepts and important skills in cybersecurity using Slack commands! 
+
+Using the "/super-cybra-help" command, users can easily access all available commands. Based on the command of their choice, they would simply put in that command and click enter to get it's entitled function. This can help broaden the user's idea and knowledge on the field of cybersecurity, which is the purpose of this project.
+
+AI was used for the process of debugging my code. I also used it to write responses for each command and understanding code written in a more deeper manner, rather than just copy and pasting the code from the guide.
 
 /super-cybra-ping: Check bot latency
 
